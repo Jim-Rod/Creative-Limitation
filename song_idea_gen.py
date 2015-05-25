@@ -17,9 +17,10 @@ import random
 
 spice = ('key change', 'bonus bar', 'claps',
 'drums + melody breakdown', 'Guitar! shout', 
-'double time')
+'double time', 'syncopated hits')
 
-feel = ('16th Hats', 'the gallops', 'slow burner')
+feel = ('16th Hats', 'the gallops', 'slow burner',
+'4 on the floor', 'synopated kick')
 
 intro = ('don’t bore us, get to the chorus',
 'dark and brooding','percussive','hits', 
@@ -34,14 +35,16 @@ words = ('laser', 'force', 'glitch', 'wave',
 'future', 'battle', 'tomb', 'lost', 'party', 'disco', 
 'light', 'lawless', 'axe', 'streets', 'japan', 'speed',
 'cocain', 'neon', 'OD', 'time', 'freeway', 'muscle', 'car',
-'panther', 'epoch', 'midnight', 'euro')
+'panther', 'epoch', 'midnight', 'euro', 'wilderness', 
+'bleak', 'gem', 'quest', 'run', 'error', 'free')
+
 
 # Helper functions
 
 def rand_list(alist):
     #returns a random member of list
-    x = random.randint(0,(len(alist)-1))
-    return alist[x]
+    x = random.choice(alist)
+    return x
 
 # make a song "report"
 
