@@ -60,7 +60,7 @@ def song():
     print('Intro: \t %s' % i)
     print('Feel: \t %s' % f)
     print('Using a %s scale' % t)
-    print('For added spice, through in a %s' % s)
+    print('For added spice, throw in a %s' % s)
     print('Your words of wisdom are: %s and %s' %(w, w2))
     print('Rock on. \m/')
     print('')
