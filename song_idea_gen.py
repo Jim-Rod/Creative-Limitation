@@ -16,26 +16,26 @@ import random
 #set up data
 
 spice = ('key change', 'bonus bar', 'claps',
-'drums + melody breakdown', 'Guitar! shout', 
-'double time', 'syncopated hits')
+         'drums + melody breakdown', 'Guitar! shout',
+         'double time', 'syncopated hits')
 
 feel = ('16th Hats', 'the gallops', 'slow burner',
 '4 on the floor', 'synopated kick')
 
 intro = ('don’t bore us, get to the chorus',
-'dark and brooding','percussive','hits', 
+'dark and brooding','percussive','hits',
 'lo-fi fade in','lick')
 
 tonality = ('major', 'minor', 'dorian', 'phrygian')
 
-words = ('laser', 'force', 'glitch', 'wave', 
+words = ('laser', 'force', 'glitch', 'wave',
 'cyber', 'thrust', 'machine', 'eagle', 'hawk', 'shark',
-'bionic', 'eclipse', 'diamond', 'rain', 'chill', 
+'bionic', 'eclipse', 'diamond', 'rain', 'chill',
 'fire', 'obey', 'hip', 'ray', 'electron', 'beast', 'escape',
-'future', 'battle', 'tomb', 'lost', 'party', 'disco', 
+'future', 'battle', 'tomb', 'lost', 'party', 'disco',
 'light', 'lawless', 'axe', 'streets', 'japan', 'speed',
 'cocain', 'neon', 'OD', 'time', 'freeway', 'muscle', 'car',
-'panther', 'epoch', 'midnight', 'euro', 'wilderness', 
+'panther', 'epoch', 'midnight', 'euro', 'wilderness',
 'bleak', 'gem', 'quest', 'run', 'error', 'free')
 
 
