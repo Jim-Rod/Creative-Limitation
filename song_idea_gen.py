@@ -13,36 +13,36 @@ to create a track with the proscibed features.
 
 import random
 
-#set up data
+# set up data
 
 spice = ('key change', 'bonus bar', 'claps',
          'drums + melody breakdown', 'Guitar! shout',
          'double time', 'syncopated hits')
 
 feel = ('16th Hats', 'the gallops', 'slow burner',
-'4 on the floor', 'synopated kick')
+        '4 on the floor', 'synopated kick')
 
 intro = ('don’t bore us, get to the chorus',
-'dark and brooding','percussive','hits',
-'lo-fi fade in','lick')
+         'dark and brooding','percussive','hits',
+         'lo-fi fade in','lick')
 
 tonality = ('major', 'minor', 'dorian', 'phrygian')
 
 words = ('laser', 'force', 'glitch', 'wave',
-'cyber', 'thrust', 'machine', 'eagle', 'hawk', 'shark',
-'bionic', 'eclipse', 'diamond', 'rain', 'chill',
-'fire', 'obey', 'hip', 'ray', 'electron', 'beast', 'escape',
-'future', 'battle', 'tomb', 'lost', 'party', 'disco',
-'light', 'lawless', 'axe', 'streets', 'japan', 'speed',
-'cocain', 'neon', 'OD', 'time', 'freeway', 'muscle', 'car',
-'panther', 'epoch', 'midnight', 'euro', 'wilderness',
-'bleak', 'gem', 'quest', 'run', 'error', 'free')
+        'cyber', 'thrust', 'machine', 'eagle', 'hawk', 'shark',
+        'bionic', 'eclipse', 'diamond', 'rain', 'chill',
+        'fire', 'obey', 'hip', 'ray', 'electron', 'beast', 'escape',
+        'future', 'battle', 'tomb', 'lost', 'party', 'disco',
+        'light', 'lawless', 'axe', 'streets', 'japan', 'speed',
+        'cocain', 'neon', 'OD', 'time', 'freeway', 'muscle', 'car',
+        'panther', 'epoch', 'midnight', 'euro', 'wilderness',
+        'bleak', 'gem', 'quest', 'run', 'error', 'free')
 
 
 # Helper functions
 
 def rand_list(alist):
-    #returns a random member of list
+    # returns a random member of list
     x = random.choice(alist)
     return x
 
@@ -61,8 +61,7 @@ def song():
     print('Feel: \t %s' % f)
     print('Using a %s scale' % t)
     print('For added spice, throw in a %s' % s)
-    print('Your words of wisdom are: %s and %s' %(w, w2))
+    print('Your words of wisdom are: %s and %s' % (w, w2))
     print('Rock on. \m/')
     print('')
     print('____________________')
-
